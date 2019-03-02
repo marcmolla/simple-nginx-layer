@@ -1,0 +1,5 @@
+includes: ['layer:basic', 'interface:http', 'layer:apt']  
+options:
+  apt:
+    packages:
+      - nginx

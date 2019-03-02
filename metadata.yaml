@@ -1,0 +1,13 @@
+name: simple-nginx
+summary: A simple nginx layer
+maintainer:  Marc <marc.molla@uc3m.es>
+description: |
+  Simple web server
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+provides:
+  website:
+    interface: http 
